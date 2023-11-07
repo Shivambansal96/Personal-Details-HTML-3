@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    Personal details 
+     <br>
+    Salutation
+    <br>
+    <select name="Salutation" >
+        <option value="none">--None--</option>
+        <option value="Mr.">Mr.</option>
+        <option value="Mrs.">Mrs.</option>
+    </select>
+    <br><br>
+
+    <label for="fname"> First Name: </label>
+    <input type="text" id="fname" placeholder="abcd"> 
+    <br><br>
+
+    <label for="lname"> Last Name: </label>
+    <input type="text" id="lname" placeholder="abcd">
+<br><br>
+    <label for="M"> Gender: 
+    <input type="radio" name="Gender" value="M" id="M"> Male
+    </label>
+
+    <label for="F">
+    <input type="radio" name="Gender" value="F" id="F"> Female
+    </label>
+<br><br>
+
+        <!-- iska email: ke baad ek space hai jo nahi hona chahiye -->
+    <label for="email">Email:<input type="text" id="email" value="abc@gmail.com"></label>
+<br><br>
+    <label for="dob">Date of birth:<input type="date" id="dob"></label>
+<br><br>
+    <label for="Address"> Address:  <br>
+    <textarea name="Address" rows="5" cols="30" id="Address"></textarea>
+    </label>
+<br><br>
+    <label for="Submit">
+        <input type="submit">
+    </label>
+
+    </form>
+</body>
+</html>
